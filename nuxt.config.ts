@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ["@vite-pwa/nuxt"],
+  modules: ["@vite-pwa/nuxt", "@nuxtjs/tailwindcss"],
   devtools: { enabled: true },
   pwa: {
     registerType: "autoUpdate",
