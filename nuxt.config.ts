@@ -1,6 +1,29 @@
 export default defineNuxtConfig({
-  modules: ["@vite-pwa/nuxt", "@nuxtjs/tailwindcss"],
-  devtools: { enabled: true },
+  modules: [
+    "@vite-pwa/nuxt",
+    "@nuxtjs/tailwindcss",
+    "nuxt-icon",
+    "nuxt-swiper",
+    "@nuxtjs/google-fonts",
+  ],
+  // buildModules: ["@nuxtjs/google-fonts"],
+  googleFonts: {
+    families: {
+      Comfortaa: true,
+    },
+  },
+  app: {
+    pageTransition: { name: "page", mode: "out-in" },
+    head: {
+      meta: [
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0, viewport-fit=cover",
+        },
+      ],
+    },
+  },
+  devtools: { enabled: false },
   pwa: {
     registerType: "autoUpdate",
     strategies: "generateSW",
@@ -472,6 +495,17 @@ export default defineNuxtConfig({
     },
     devOptions: {
       enabled: true,
+    },
+  },
+  vite: {
+    vue: {
+      template: {
+        compilerOptions: {
+          isCustomElement: (tag) => {
+            return tag.startsWith("pwa-install");
+          },
+        },
+      },
     },
   },
 });
