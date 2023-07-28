@@ -1,6 +1,6 @@
 ☐ Criar botão ativo no appNavBar
-☐ Criar transicao de pagina
-☐ Criar menu de acesso de exemplo no hmburg
+✔ Criar transicao de pagina @done (7/27/2023, 3:05:58 PM)
+✔ Criar menu de acesso de exemplo no hmburg @done (7/27/2023, 3:06:05 PM)
 ☐ Criar formulario de contato fake
 ☐ Criar secao de localizacao integrado no open map
 ☐ Criar secao de push notification teste (fake talvez)
@@ -8,5 +8,5 @@
 ☐ Criar cards de beneficios
 ✔ Criar logica pra desaparecer botao de instalar quando instalado @done (7/27/2023, 1:41:30 PM)
 ✔ Criar menu de acesso quando botão sumir @done (7/27/2023, 1:31:16 PM)
-☐ Deixar hide default no box de instalacao
-☐ Criar safe area ios
+✔ Deixar hide default no box de instalacao @done (7/27/2023, 3:06:12 PM)
+✔ Criar safe area ios @done (7/27/2023, 3:06:13 PM)

@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="bg-pwa px-4 lg:px-6 py-2.5">
+    <nav class="bg-pwa px-4 lg:px-6 py-2.5 pl-safe pr-safe">
       <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         <NuxtLink to="/" class="order-2 flex items-center">
           <img src="/logo-branco.svg" class="mr-3 h-9" alt="Flowbite Logo" />

@@ -1,8 +1,8 @@
 <template>
   <section>
     <pageSlider />
+    <Location />
     <article class="p-5">
-
       <h1 class="text-xl font-bold">Esta é a {{ $route.name }}</h1>
       <p>
         Aproveite recursos avançados, como notificações push e acesso direto à tela inicial, proporcionando uma interação

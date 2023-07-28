@@ -20,6 +20,8 @@
   "dependencies": {
     "@khmyznikov/pwa-install": "^0.2.5",
     "@nuxtjs/google-fonts": "^3.0.2",
+    "@vueuse/components": "^10.2.1",
+    "@vueuse/core": "^10.2.1",
     "flowbite": "^1.7.0",
     "nuxt-ssr-lit": "^1.5.5",
     "nuxt-swiper": "^1.2.0",
