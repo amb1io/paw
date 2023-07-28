@@ -10,9 +10,21 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.16.19",
     "@vite-pwa/assets-generator": "^0.0.4",
     "@vite-pwa/nuxt": "^0.1.0",
-    "nuxt": "^3.6.5"
+    "nuxt": "^3.6.5",
+    "nuxt-icon": "^0.4.2"
+  },
+  "dependencies": {
+    "@khmyznikov/pwa-install": "^0.2.5",
+    "@nuxtjs/google-fonts": "^3.0.2",
+    "@vueuse/components": "^10.2.1",
+    "@vueuse/core": "^10.2.1",
+    "flowbite": "^1.7.0",
+    "nuxt-ssr-lit": "^1.5.5",
+    "nuxt-swiper": "^1.2.0",
+    "tailwindcss-safe-area": "^0.3.0"
   }
 }
