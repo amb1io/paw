@@ -2,6 +2,8 @@
   <section>
     <pageSlider />
     <Location />
+    <PushNotification />
+    <Beneficios />
     <article class="p-5">
       <h1 class="text-xl font-bold">Esta é a {{ $route.name }}</h1>
       <p>
@@ -69,3 +71,7 @@
     </article>
   </section>
 </template>
+
+<script setup>
+import Beneficios from '../partials/Beneficios.vue'
+</script>

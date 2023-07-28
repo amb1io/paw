@@ -2,11 +2,15 @@
 ✔ Criar transicao de pagina @done (7/27/2023, 3:05:58 PM)
 ✔ Criar menu de acesso de exemplo no hmburg @done (7/27/2023, 3:06:05 PM)
 ☐ Criar formulario de contato fake
-☐ Criar secao de localizacao integrado no open map
-☐ Criar secao de push notification teste (fake talvez)
+✔ Criar secao de localizacao integrado no open map @done (7/28/2023, 8:10:12 PM)
+✔ Criar secao de push notification teste (fake talvez) @done (7/28/2023, 8:10:13 PM)
 ✔ Testar offline @done (7/27/2023, 11:35:43 AM)
 ☐ Criar cards de beneficios
 ✔ Criar logica pra desaparecer botao de instalar quando instalado @done (7/27/2023, 1:41:30 PM)
 ✔ Criar menu de acesso quando botão sumir @done (7/27/2023, 1:31:16 PM)
 ✔ Deixar hide default no box de instalacao @done (7/27/2023, 3:06:12 PM)
-✔ Criar safe area ios @done (7/27/2023, 3:06:13 PM)
+✔ Criar safe area ios @done (7/28/2023, 8:32:43 PM)
+☐ Desabilitar zoom de pagina
+☐ criar conteudo
+☐ criar interface tablet
+☐ criar interface desktop
